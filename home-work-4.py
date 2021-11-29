@@ -13,9 +13,12 @@ def prime_list(start_pul, finish_pul):
             else:
                 temp = True
         return temp
-
+    myListEyeNum = []
     for i in range (start_pul,finish_pul+1):
-        print(f'{i} = {is_prime(i)}')
+        if is_prime(i) == True:
+            myListEyeNum.append(i)
+    print(myListEyeNum)
+
 
 start = int(input('enter start position '))
 finish = int(input('enter start position '))
