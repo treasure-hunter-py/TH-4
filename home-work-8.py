@@ -16,5 +16,5 @@ def fnc(list_1, shift = 1):
             temp = list_1[:1:]
             list_1 = temp_list + temp
         print(list_1)
-
-fnc([1, 2, 3, 4, 5], shift= -1)
+a = int(input('enter pull change '))
+fnc([1, 2, 3, 4, 5], shift= a)
